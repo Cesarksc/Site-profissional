@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(90deg, #000000, #1d0340, #000d40, #1033bd);
+}
+
+/*cabeçalho*/
+header {
+  background: #00000080;
+  padding: 20px 250px;
+  margin-top: -20px;
+  margin-left: -180px;
+  margin-right: -8px;
+}
+
+.caixa {
+  position: relative;
+  width: 500px;
+  padding-right: 600px;
+  color: #ffffff;
+}
+
+.caixa a {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #1948ff;
+}
+
+/*pagina inicial esquerda*/
+
+.esquerda {
+  position: relative;
+  color: #ffffff;
+  top: 150px;
+  left: 100px;
+  width: 620px;
+}
+
+.perfil {
+  top: 250px;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 850px;
+}
