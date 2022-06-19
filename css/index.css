@@ -155,3 +155,8 @@ main {
     margin: 0 -35px 0 35px;
   }
 }
+
+/*sobre*/
+.sobre {
+  background-color: red;
+}
