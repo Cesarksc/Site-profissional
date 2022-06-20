@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   width: 11px;
   background-color: #45277e;
@@ -53,17 +57,18 @@ header {
 }
 
 .menu nav a {
-  font-family: "Roboto Mono", monospace;
-  color: #ffffff;
-  text-decoration: none;
   text-transform: uppercase;
-  padding-right: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
   font-size: 15px;
+  text-decoration: none;
+  padding-right: 15px;
   transition: 0.4s;
 }
 
 .menu nav a:hover {
-  color: #fc6d6d;
+  color: #ee9542;
   font-size: 17px;
   right: 10px;
 }
@@ -158,6 +163,34 @@ main {
 
 /*sobre*/
 #sobre {
-  background-color: red;
-  height: 500px;
+  height: 538px;
+  display: inline-block;
+}
+.quem {
+  width: 40%;
+  margin-left: 10%;
+  top: 50px;
+  padding-top: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.textosobre {
+  margin-top: 30px;
+}
+
+.recuo {
+  padding-top: 8px;
+  text-indent: 2em;
+  text-align: justify;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+
+img {
+  position: relative;
+  width: 380px;
+  margin-top: -600px;
+  margin-left: 850px;
 }
